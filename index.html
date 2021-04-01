@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Bootstrap -->
+    <!-- What is Bootstrap? Bootstrap is a HTML, CSS, and JS framework for developing responsive, mobile first projects. -->
+    <!-- How do I use Bootstrap? Head to https://getbootstrap.com/ and click the 'Get Started' button. -->
+    <!-- In the getting started guide, you should see CSS and JS, each with respective links under them. To access the Bootstrap framework, we need to use these links in our HTML file. Follow the directions on Bootstrap's website and copy/paste the necessary 'link' and 'script' tags. -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+<!-- CSS Files-->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <div class="bodyBack">
+  <!-- Navbar  -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img src="../portfolioExample/assets/FullColor_TextOnly_1280x1024_72dpi.png"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/DeneaRansom">
+              <img src="../portfolioExample/assets/iconfinder_github_social_media_logo_1221583.png" width="30" height="30">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="https://www.linkedin.com/in/denea-ransom-43799983/" tabindex="-1" aria-disabled="true">
+            <img src="../portfolioExample/assets/iconfinder_SocialMedia_LinkedIn-Outline_2959747.png" width="30" height="30">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Header -->
+
+<h1 class="display-4" id="aboutTitle">Hey, I'm Denea!</h1>
+    <!-- About -->
+    <div class="clearfix" style="width: 70rem;">
+      <img src="../portfolioExample/assets/DSC_0085.JPG" class="col-md-6 float-md-end mb-3 ms-md-3"  alt="...">
+      <p class="lead">I'm an aspiring UX/UI designer, based in Indianapolis, IN. </p>
+      <p class="bio">Currently attending web development bootcamp, with plans to start UX/UI courses immediately after. I hope that my previous knowledge in bookkeeping and problem solving skills will make me a great designer and addition to any team I may join! </p>
+      <h2>Skills</h2>
+      <p>My skills include:</p>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Admin Support</li>
+        <li>Bookkeeping</li>
+        <li>Account Management</li>
+        <li>Data Entry</li>
+
+        <a class="btn btn-light resume" href="../portfolioExample/assets/DRansomResume.pdf" id="button"download="../portfolioExample/assets/DRansomResume.pdf">Download My Resume</a>
+
+    </div>
+
+      <!-- Projects -->
+
+        <!-- Although we are not using a Bootstrap component for our projects section, we are using Bootstrap's grid system to help with the layout of our webpage. In the 'Grid' section located in the left sidebar, there is documentation explaining how to implement Bootstrap's grid system within our webpage. -->
+    <!-- Bootstap's grid system has 12 columns that span the horizontal width of our viewport. By using the container, row, and col classes, we can use the grid system to evenely space out how many columns we want. In our code below, we have three div's that are each taking up 4 columns of the alloted 12 - which means they should be evenly spaced, taking up 4 columns each. -->
+    <!-- Below we have a container, with a nested row, and 3 nested columns. The container is simply just a container for our content that we want to display in our grid. The row will align our columns in a horizontal row. And the columns are were we store our information.  -->
+    <div class="projectContainer">
+      <h1 id="projectHead">Projects</h1>
+    <div class="rowOne">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card"style= "width: 35rem;">
+          <div class="card-body">
+            <h5 class="card-title">Static Layout</h5>
+            <p class="card-text">My 1<sup>st</sup> bootcamp project, A static layout of "Kast.com".</p>
+            <a href="https://denearansom.github.io/staticLayout/" class="btn btn-light">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card"style= "width: 35rem;">
+          <div class="card-body">
+            <h5 class="card-title">Cat Facts API</h5>
+            <p class="card-text">My 1<sup>st</sup> API project. </p>
+            <a href="https://denearansom.github.io/API-1/" class="btn btn-light">Take a look</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+   <div class="rowTwo">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card" style= "width: 35rem;">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio</h5>
+            <p class="card-text">My 3<sup>rd</sup> bootcamp project, this Portfolio you're looking at now.</p>
+            <a href="" class="btn btn-light">View Portfolio</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card" style= "width: 35rem;">
+          <div class="card-body">
+            <h5 class="card-title">Giphy API</h5>
+            <p class="card-text">My 4<sup>th</sup> bootcamp project, further testing my knowledge of APIs.</p>
+            <a href="" class="btn btn-light">Giphy API</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+   <!-- Contact --> 
+   <!-- Our contact form is powered by formspree. Formspree is a free email service for HTML forms, that re-routes any form submissions to the provided email address (should be your personal email). This allows us to use form submission on our portfolios without using any JavaScript to post/route the form to us - formspree does that for us. -->
+
+   <section id="contact">
+    <div class="container">
+      <br />
+      <br />
+      <h2 class="text-center text-uppercase">Contact Me</h2>
+      <div class="row">
+        <div class="col-12">
+          <form
+            action="https://formspree.io/f/xdopqvrr"
+            method="POST"
+          >
+            <div class="control-group">
+              <div class="form-group">
+                <label>Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  id="name"
+                  required
+                  data-validation-required-message="Please enter your name"
+                  name="name"
+                />
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  id="email"
+                  required
+                  data-validation-required-message="Please enter your email"
+                  name="_replyto"
+                />
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  rows="7"
+                  placeholder="Your Message"
+                  id="message"
+                  required
+                  data-validation-required-message="Please leave a message"
+                  name="message"
+                ></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</form>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

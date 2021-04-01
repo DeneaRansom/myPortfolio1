@@ -1,0 +1,32 @@
+.clearfix {
+    margin-left: 10rem;
+    margin-top: 3rem;
+    color: #FFDFCC !important;
+   
+}
+img {
+    border-radius: 20px;
+}
+p{
+    color: #FFDFCC !important;
+}
+
+#aboutTitle { 
+    text-align: center;
+    font-size: 4rem;
+}
+
+.bg-light, .p-5, .rounded-lg, .m-3 {
+    background-color: #D4916A !important;
+    color: white;
+    
+    
+}
+
+.display-4 {
+    color: #FFDFCC
+}
+
+#button {
+    margin-left: -2rem;
+}

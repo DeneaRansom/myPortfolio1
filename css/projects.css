@@ -1,0 +1,32 @@
+.projectContainer {
+    color:#FFDFCC !important;
+    background: transparent !important;
+
+}
+#projectHead {
+   font-size: 4em;
+   font-weight:inherit;
+   text-align: center;
+}
+.card-title {
+    font-style: italic;
+}
+
+.card {
+    background: transparent !important;
+    text-align: center;
+    
+    
+}
+
+.rowOne{
+    margin-left: 5rem;
+}
+
+.rowTwo {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.btn, .btn-light {
+    color: #66440a !important;
+}

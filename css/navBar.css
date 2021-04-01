@@ -1,0 +1,16 @@
+.navbar, .sticky-top, .navbar-expand-lg, .navbar-light, .bg-light {
+     background: #D4916A !important;
+}
+
+
+.navbar-brand {
+    color: #FFDFCC !important;
+} 
+.nav-link, .active {
+    color: #FFDFCC !important;
+    font-size: larger;
+}
+.nav-item {
+    color: #FFDFCC !important;
+}
+
