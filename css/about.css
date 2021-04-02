@@ -4,8 +4,9 @@
     color: #FFDFCC !important;
    
 }
-img {
-    border-radius: 20px;
+#me {
+    border-radius: 50px;
+    border: .5rem solid #FFDFCC !important;
 }
 p{
     color: #FFDFCC !important;

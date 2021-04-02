@@ -28,5 +28,9 @@
     margin-left: 5rem;
 }
 .btn, .btn-light {
+    background-color: #FFDFCC !important;
     color: #66440a !important;
+}
+.projectPhoto {
+    border-radius: 25px !important;
 }
